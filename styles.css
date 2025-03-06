@@ -3,6 +3,7 @@ body {
     background-image: url('auditori.png');
     background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
     background-position: center; /* Centra la imagen */
+    background-attachment: fixed;
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     margin: 0; /* Quita el margen predeterminado del cuerpo */
     height: 100%;
@@ -53,4 +54,82 @@ iframe {
     width: 100%;
     height: 500px; /* Ajusta la altura del iframe según sea necesario */
     border: 0;
+}
+.container{
+    background-color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+background-image: url('auditori.png');
+background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+background-position: center; /* Centra la imagen */
+background-repeat: no-repeat; /* Evita que la imagen se repita */
+margin: 0; /* Quita el margen predeterminado del cuerpo */
+height: 100%;
+    text-align: center;
+}
+header {
+    background-color: transparent;
+    padding: 20px;
+}
+.logo {
+    width: 200px;
+}
+.eventos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.evento {
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.evento img {
+    width: 100%;
+    height: auto;
+}
+.evento h3 {
+    color: #333;
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+.evento h2 {
+    color: #000;
+    margin: 5px 0;
+    font-size: 18px;
+}
+.boton {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: auto;
+}
+.boton:hover {
+    background-color: #218838;
+}
+.pie{
+    font-size: 10px;
+    color:white;
+    margin-bottom: 30px;
+}
+.pie2{
+    font-size: 10px;
+    color:white;
+ 
+}
+.piedepagina{
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
