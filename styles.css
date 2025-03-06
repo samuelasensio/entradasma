@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('auditori.png');
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0; /* Quita el margen predeterminado del cuerpo */
+    height: 100%;
+    text-align: center;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px; /* Hacer el contenedor más ancho */
+    text-align: center;
+    opacity:1
+
+}
+
+.logo img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.photo img {
+    width: 100%; /* Hacer la imagen más grande */
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.iframe-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px; /* Ajusta la altura del iframe según sea necesario */
+    border: 0;
+}
